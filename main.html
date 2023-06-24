@@ -8,6 +8,65 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="#" method="post">
+       <div>
+        <label for="name">Name*</label>
+        <input type="text" name="name" id="name" required placeholder="Name">
+       </div>
+       <br>
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required placeholder="Email">
+        </div>
+        <br>
+       <div>
+        <label for="gender">Gender*</label>
+        <label for="gender_m">Male</label><input type="radio" name="gender" id="gender_m" required>
+        <label for="gender_f">Female</label><input type="radio" name="gender" id="gender_f" required>
+       </div>
+       <br>
+       <div>
+        <label for="cars">Laptop Brands*</label>
+        <select name="cars" id="cars" required >
+            <option value="">--Please choose an option--</option>
+            <option value="bmw">Apple</option>
+            <option value="audi">Asus</option>
+            <option value="mercedez">HP</option>
+        </select>
+       </div>
+       <br>
+       <div>
+            <label for="age">Age*</label>
+            <input type="number" name="age" id="age" required placeholder="Age">
+       </div>
+       <br>
+       <div>
+            <label for="dob">DOB*</label>
+            <input type="date" name="dob" id="dob" required>
+       </div>
+       <br>
+        <div>
+            <label for="tel">Phone Number</label>
+            <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password*</label>
+            <input type="password" name="pass" id="password" required placeholder="Password">
+        </div>
+		<br>
+		<div>
+			<label for="portfolio">Portfolio URL</label> 
+			<input type="url" id = "portfolio" name="url" placeholder="Website URL" required>
+		</div>
+        <br>
+        <div>
+            I agree to the TOS
+            <input type="checkbox" name="tos" id="tos" required>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
